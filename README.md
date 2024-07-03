@@ -37,6 +37,7 @@
 - [原始链接](https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt)
 - [我的仓库-原始链接](https://gh-proxy.com/https://raw.githubusercontent.com/XCQ0607/AutoMergePublicNodes/master/list.txt)
 - [JsDelivr 反代（zzko.cn）](https://cdn.jsdelivr.us/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
+- [我的仓库-JsDelivr 反代](https://cdn.jsdelivr.us/gh/XCQ0607/AutoMergePublicNodes@master/list.txt)
 - [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
