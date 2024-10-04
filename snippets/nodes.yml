@@ -1,25 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US__1
+  name: '1,6|🇺🇸_US_美国 #7'
   network: ws
   port: 2086
   server: 104.19.38.62
   sni: ip004.dtku47.xyz
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__2
+  name: '1,6|🇺🇸_US_美国 #8'
   network: ws
   port: 2086
   server: 104.19.47.122
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -30,13 +34,15 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__1
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 2086
   server: 104.19.47.79
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_FR_->_RU_
   password: f8f7aCzcPKbsF8p3
@@ -45,40 +51,48 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__4
+  name: '1,6|🇺🇸_US_美国 #10'
   network: ws
   port: 2086
   server: 104.19.46.36
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__2
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 2086
   server: 104.19.46.39
   sni: ''
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CN__1
+  name: '1,6|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
   network: ws
   port: 2052
   server: 104.19.21.240
   sni: cdn2.freegradely.xyz
+  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__3
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 2086
   server: 104.19.47.32
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_US__5
   password: amazonskr05
@@ -87,22 +101,26 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_SG_
+  name: '1,6|🇺🇸_US_美国->🇸🇬_SG_新加坡 #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
   sni: ''
+  tls: false
   type: vmess
   uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__6
+  name: '1,6|🇺🇸_US_美国 #11'
   network: ws
   port: 2086
   server: 104.20.25.146
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-gcm
   name: 1|_US__7
   password: RexnBgU7EV5ADxG
@@ -111,12 +129,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL_
+  name: 1,6|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
   port: 2086
   server: 172.64.198.249
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: 1|_US_->_ES_
   password: 2062a5ca-a34e-47bf-9810-db91185f07fc
@@ -125,25 +145,29 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__8
+  name: '1,6|🇺🇸_US_美国 #12'
   network: ws
   port: 2086
   server: 104.19.21.230
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__4
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 2086
   server: 104.19.45.47
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -154,22 +178,26 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CN__2
+  name: '1,6|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
   network: ws
   port: 8080
   server: 104.19.47.126
   sni: ''
+  tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__10
+  name: '1,6|🇺🇸_US_美国 #14'
   network: ws
   port: 2052
   server: 104.19.46.123
   sni: cdn2.freegradely.xyz
+  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_SG_
   password: amazonskr05
@@ -184,13 +212,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__12
+  name: '1,6|🇺🇸_US_美国 #15'
   network: ws
   port: 2086
   server: 104.19.51.232
   sni: ''
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_CN_
   password: hGkQ6915tD
@@ -199,39 +229,47 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__13
+  name: '1,6|🇺🇸_US_美国 #16'
   network: ws
   port: 2086
   server: 104.19.46.233
   sni: ''
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__14
+  name: '1,6|🇺🇸_US_美国 #17'
   network: ws
   port: 2086
   server: 104.19.46.59
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__15
+  name: '1,6|🇺🇸_US_美国 #18'
   network: ws
   port: 2086
   server: 104.19.46.27
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__16
+  name: '1,6|🇺🇸_US_美国 #19'
   network: ws
   port: 2086
   server: 104.19.45.15
   sni: ''
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 2|🇩🇪_DE_德国
@@ -359,7 +397,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,7|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: '2,7|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -372,6 +410,124 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '3,17|🇺🇸_US_美国 #32'
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
+  network: ws
+  port: 2052
+  server: 104.18.37.248
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  network: ws
+  port: 8080
+  server: 104.19.47.16
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  network: ws
+  port: 2086
+  server: 104.19.47.65
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  network: tcp
+  port: 54002
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #3'
+  network: ws
+  port: 2052
+  server: p3.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国 #33'
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '3,17|🇨🇳_CN_中国 #1'
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国 #34'
+  network: ws
+  port: 8080
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #12'
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
   name: 7|🇱🇺_LU_卢森堡
   network: http
   port: 3389
@@ -381,7 +537,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #4'
+  name: '7|🇺🇸_US_美国 #20'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -416,7 +572,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #5'
+  name: '7|🇺🇸_US_美国 #21'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -442,7 +598,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #6'
+  name: '7|🇺🇸_US_美国 #22'
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -455,7 +611,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #7'
+  name: '7|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -468,7 +624,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #8'
+  name: '7|🇺🇸_US_美国 #24'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -481,7 +637,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #9'
+  name: '7|🇺🇸_US_美国 #25'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -494,7 +650,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #10'
+  name: '7|🇺🇸_US_美国 #26'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -507,7 +663,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #11'
+  name: '7|🇺🇸_US_美国 #27'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -520,7 +676,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #12'
+  name: '7|🇺🇸_US_美国 #28'
   network: ws
   port: 2052
   server: mahilu.site
@@ -542,7 +698,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #13'
+  name: '7|🇺🇸_US_美国 #29'
   network: ws
   port: 8880
   server: russia.com
@@ -555,7 +711,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 7|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: '7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: 8080
   server: fbi.gov
@@ -568,7 +724,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '7|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -581,7 +737,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #14'
+  name: '7|🇺🇸_US_美国 #30'
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -594,7 +750,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #15'
+  name: '7|🇺🇸_US_美国 #31'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -609,369 +765,18 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: '2095'
-  server: 104.16.60.8
-  servername: ''
+  port: 2095
+  server: 162.159.140.66
   tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
-    path: /obdii.cfd/linkws
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 2052
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: 2052
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
-  tls: false
-  type: vmess
-  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
-  ws-opts:
-    headers:
-      Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.ernanews.ggff.net
-    path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 11|广东省广州市 移动
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 2095
-  server: 162.159.140.56
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: addressesapi.090227.xyz
-  tls: true
-  type: vmess
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
-  ws-opts:
-    headers:
-      Host: au1.siris.eu.org
-    path: /au1vmess
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
-  network: ws
-  port: 2095
-  server: 104.19.21.63
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|巴西圣保罗 CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.96.2
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #6'
-  network: ws
-  port: 2095
-  server: 172.64.198.249
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #7'
-  network: ws
-  port: 2095
-  server: 104.19.42.49
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|美国 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #8'
-  network: ws
-  port: 2095
-  server: 104.19.46.103
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #9'
-  network: ws
-  port: 2095
-  server: 172.64.194.76
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #10'
-  network: ws
-  port: 2082
-  server: 162.159.140.91
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #11'
-  network: ws
-  port: 2095
-  server: 172.64.166.9
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #12'
-  network: ws
-  port: 2086
-  server: 172.67.196.170
-  tls: false
-  type: vmess
-  uuid: 5e7429a4-b006-4a16-b1a3-1af2fbcddbc0
-  ws-opts:
-    headers:
-      Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #13'
-  network: ws
-  port: 2095
-  server: 104.19.59.89
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #14'
-  network: ws
-  port: 2082
-  server: 162.159.140.89
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #15'
-  network: ws
-  port: 2095
-  server: 104.19.45.17
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #16'
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #17'
-  network: ws
-  port: 2095
-  server: 104.19.45.196
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #18'
-  network: ws
-  port: 443
-  server: 104.21.9.236
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 印度  3
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #19'
-  network: ws
-  port: 2095
-  server: 104.19.45.31
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #20'
-  network: ws
-  port: '2095'
-  server: singapore.com
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #21'
-  network: ws
-  port: 2095
-  server: 162.159.140.93
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|英国 v2rayfree.eu.org
-  network: ws
-  port: 1781
-  server: 5.39.254.196
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #22'
-  network: ws
-  port: 80
-  server: 173.245.58.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a4af6fa2-264f-4ddd-8718-246dc999386b
-  ws-opts:
-    headers:
-      Host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #23'
   network: ws
   port: 2052
   server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
@@ -985,64 +790,24 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #24'
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
-  port: '443'
-  server: gt021.bestforxray.buzz
-  servername: ausgt02.bestforxray.buzz
-  tls: true
-  type: vmess
-  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
-  ws-opts:
-    headers:
-      Host: ausgt02.bestforxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #25'
-  network: ws
-  port: '2082'
-  server: 104.16.67.38
+  port: 80
+  server: 173.245.58.41
   servername: ''
   tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: a4af6fa2-264f-4ddd-8718-246dc999386b
   ws-opts:
     headers:
-      Host: till-bush-d255.loyabok125.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      Host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #26'
-  network: ws
-  port: 443
-  server: zula.ir
-  tls: true
-  type: vmess
-  uuid: 2b9c6f79-db7b-4935-9d83-7c52f30a2465
-  ws-opts:
-    headers:
-      Host: Minecraft.game-one.ir
-    path: /@wolf_vpn02
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #27'
-  network: ws
-  port: 2082
-  server: 162.159.140.45
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #28'
+  name: '11|美国 CloudFlare节点 #3'
   network: ws
   port: 2095
-  server: 104.26.0.56
+  server: fbi.gov
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -1052,24 +817,407 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #29'
+  name: '11|美国 CloudFlare节点 #4'
   network: ws
-  port: 80
-  server: 172.64.229.209
+  port: 2082
+  server: 104.26.5.145
   servername: ''
   tls: false
   type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: rn2.hostmjj.com
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 11|美国 华盛顿Cogent通信公司
+  network: ws
+  port: 38003
+  server: 38.14.107.233
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/340434130032
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: 2095
+  server: 162.159.140.56
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #6'
+  network: ws
+  port: 2095
+  server: 104.21.238.100
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #7'
+  network: ws
+  port: 2082
+  server: 104.19.59.89
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 11|美国 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 172.99.190.50
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.99.190.50
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #8'
+  network: ws
+  port: 2095
+  server: 104.19.21.71
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #9'
+  network: ws
+  port: 8880
+  server: 104.16.67.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-divine-hat-02d6.savofir317.workers.dev
+    path: /glweidf.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #10'
+  network: ws
+  port: 443
+  server: npmjs.com
+  tls: true
+  type: vmess
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      Host: hdfy1c2.freeairlaines.com
+    path: /QvtvPdDXXIlSdZMqnuxG
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #11'
+  network: ws
+  port: 2082
+  server: 104.19.45.90
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #12'
+  network: ws
+  port: 2095
+  server: 104.19.47.65
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #13'
+  network: ws
+  port: 2082
+  server: 104.20.17.186
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #14'
+  network: ws
+  port: 2082
+  server: 172.64.167.22
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #15'
+  network: ws
+  port: 2082
+  server: 104.19.57.4
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #16'
+  network: ws
+  port: 2095
+  server: 104.21.23.231
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #30'
+  name: '11|美国 CloudFlare节点 #17'
+  network: ws
+  port: 2095
+  server: 172.64.99.22
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #18'
+  network: ws
+  port: 8880
+  server: 172.67.196.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d
+  ws-opts:
+    headers:
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #19'
+  network: ws
+  port: '2096'
+  server: 172.67.171.200
+  servername: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
+  tls: true
+  type: vmess
+  uuid: d77c0cdc-b28e-427d-c58c-062f254759bd
+  ws-opts:
+    headers:
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|巴西圣保罗 CloudFlare节点
+  network: ws
+  port: 443
+  server: 188.114.97.8
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #20'
+  network: ws
+  port: 2095
+  server: 172.64.167.25
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #21'
+  network: ws
+  port: 80
+  server: 104.18.84.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
+  ws-opts:
+    headers:
+      Host: rn1.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #22'
+  network: ws
+  port: 2052
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: late-wave-1d0a.lesijo3430.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #23'
   network: ws
   port: 2082
-  server: ip.sb
+  server: 172.64.166.28
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #24'
+  network: ws
+  port: 2082
+  server: 104.19.45.47
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #25'
+  network: ws
+  port: 2095
+  server: 104.19.45.178
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国|@ripaojiedian
+  network: ws
+  port: '46010'
+  server: 223.244.26.216
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #26'
+  network: ws
+  port: 2082
+  server: 172.64.166.20
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #27'
+  network: ws
+  port: 2095
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #28'
+  network: ws
+  port: 443
+  server: 172.67.136.233
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #29'
+  network: ws
+  port: 2082
+  server: 104.19.45.35
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -1090,6 +1238,20 @@ proxies:
   ws-opts:
     headers:
       Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 12|github.com/freefq - 印度  3
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
@@ -1267,23 +1429,6 @@ proxies:
   server: 23.157.40.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
-  network: ws
-  port: '46010'
-  server: 223.244.26.216
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇺🇸 美国3|@ripaojiedian
@@ -1336,16 +1481,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e099546a-4aef-4481-84e9-d0c951f226c1
-- alterId: 64
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|日本|@ripaojiedian
@@ -1356,121 +1491,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国 #16'
-  network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 2052
-  server: 104.18.37.248
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 17|🇺🇸_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 8080
-  server: 104.19.47.16
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 2086
-  server: 104.19.47.65
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '17|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: '17|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: 54002
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
-  network: ws
-  port: 2052
-  server: p3.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国 #17'
-  network: ws
-  port: 2086
-  server: 104.19.32.46
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 17|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国 #18'
-  network: ws
-  port: 8080
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
